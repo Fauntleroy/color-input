@@ -7,6 +7,9 @@ var App = React.createClass({
         return {};
     },
     render: function(){
+        var inputStyle = {
+            outlineColor: this.state.color
+        };
         var displayStyle = {
             backgroundColor: this.state.color
         };
@@ -16,6 +19,7 @@ var App = React.createClass({
                     className="color"
                     type="text"
                     placeholder="Enter a color"
+                    style={inputStyle}
                     value={this.state.color}
                     onChange={this._onInputChange}
                 />

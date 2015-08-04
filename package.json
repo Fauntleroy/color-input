@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -t babelify -t cssify src/index.jsx -o dist/index.js && cp src/index.html dist/index.html"
+    "build": "mkdir -p dist && browserify -t babelify -t cssify src/index.jsx -o dist/index.js && cp src/index.html dist/index.html"
   },
   "repository": {
     "type": "git",
