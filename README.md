@@ -1,6 +1,8 @@
 # Color Input
 One input, one color.
 
+Demo: http://fauntleroy.github.io/color-input/
+
 ![Color Input Screenshot](screenshot.png)
 
 ### Instructions
