@@ -3,9 +3,13 @@ body {
 }
 
 .app {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
     position: absolute;
     top: 0;
