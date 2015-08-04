@@ -37,3 +37,10 @@ body {
     height: 250px;
     transition: background 500ms cubic-bezier( 0.645, 0.045, 0.355, 1 );
 }
+
+@media ( max-width: 720px ) {
+    .color,
+    .color-display {
+        width: 100%;
+    }
+}

@@ -15,7 +15,7 @@ var App = React.createClass({
                 <input
                     className="color"
                     type="text"
-                    placeholder="Enter a color or code"
+                    placeholder="Enter a color"
                     value={this.state.color}
                     onChange={this._onInputChange}
                 />
