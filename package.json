@@ -1,0 +1,28 @@
+{
+  "name": "color-input",
+  "version": "0.0.0",
+  "description": "One input, one color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t reactify -t cssify src/index.jsx -o dist/index.js && cp src/index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fauntleroy/color-input.git"
+  },
+  "author": "Timothy Kempf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fauntleroy/color-input/issues"
+  },
+  "homepage": "https://github.com/Fauntleroy/color-input#readme",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "cssify": "^0.7.0",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
